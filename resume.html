@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Junior Frontend Developer Resume</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+			<div class="menuWrapper"  id="start">
+				<a href="#personalInfo" class="menuItem">Личные данные</a>
+				<a href="#education" class="menuItem">Образование</a>
+				<a href="#workExperience" class="menuItem">Опыт работы</a>
+				<a href="#hardSkills" class="menuItem">Навыки</a>
+				<a href="#softSkills" class="menuItem">Личные качества</a>
+				<a href="#volunteerExperience" class="menuItem">Волонтёрство</a>
+				<a href="#certificates" class="menuItem">Сертификаты</a>
+			</div> <!-- END menuWrapper -->
+
+			<div id="sideMenu" class="sidepanel sideMenu">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#personalInfo" class="menuItem">Личные данные</a>
+				<a href="#education" class="menuItem">Образование</a>
+				<a href="#workExperience" class="menuItem">Опыт работы</a>
+				<a href="#hardSkills" class="menuItem">Навыки</a>
+				<a href="#softSkills" class="menuItem">Личные качества</a>
+				<a href="#volunteerExperience" class="menuItem">Волонтёрство</a>
+				<a href="#certificates" class="menuItem">Сертификаты</a>
+			</div> <!-- END sideMenu -->
+
+			<button id="menuButton" class="openbtn" onclick="openNav()">Разделы</button>  
+		
+			<div class="header">
+				<h1>Семёнова Александра Владимировна</h1>
+				<p style="text-transform: uppercase;">Резюме</p>
+				<p style="font-style: italic;">Младший Frontend-разработчик</p>
+			</div> <!-- END Header -->
+
+		<div class="bodyWrapper">
+			<div class="personalInfo" id="personalInfo">
+				<div class="photo">
+					<picture>
+						<source media="(min-width: 760px)" srcset="img/cvPic_medium.jpg">
+						<source media="(min-width:1200px)" srcset="img/cvPic_large.jpg">
+						<img src="img/cvPic_small.jpg" alt="Моё фото">
+					</picture>
+				</div> <!-- END photo -->
+				
+				<div class="tilePinfo dateOfBirth">
+					<h3>ДАТА РОЖДЕНИЯ</h3>
+					<p>13.02.1993</p>
+				</div>
+
+				<div class="tilePinfo address">
+					<h3>АДРЕС</h3>
+					<p>проезд Дзержинского 7-67<br>г.Кирово-Чепецк<br>Кировская область<br>613045</p>
+				</div>
+		
+				<div class="tilePinfo phone">
+					<h3>ТЕЛЕФОН</h3>
+					<p><a href="tel:+7-922-955-45-76" title="Звоните ;)">+7 (922) 955 45 76</a></p>
+				</div>
+				
+				<div class="tilePinfo email">
+					<h3>ЭЛЕКТРОННАЯ ПОЧТА</h3>
+					<p><a href="mailto:semenovalekshu@gmail.com" title="Пишите ;)">semenovalekshu@gmail.com</a></p>
+				</div>
+				
+				<div class="tilePinfo hobbies">
+					<h3>ХОББИ</h3>
+					<p>
+						Кино<br>
+						Литература<br>
+						Фотография<br>
+						Спорт<br>
+						Иностранные языки<br>
+						Путешествия<br>
+						Природа
+					</p>
+				</div>
+				
+			</div> <!--END personalInfo -->
+
+			<div class="mainInfo">
+
+				<div class="tile" id="education">
+					<h3 class="mainInfoHeading">ОБРАЗОВАНИЕ</h3>
+					<p><b>2011-2015</b><br>Санкт-Петербургский Государственный Университет<br>Зарубежная литература, Немецкий язык<br>Бакалавриат</p>
+				</div> <!-- END education -->
+
+				<div class="tile" id="workExperience">
+					<h3 class="mainInfoHeading">ОПЫТ РАБОТЫ</h3>
+					<p>В данной области опыта работы не имею в связи со сменой профессиональной деятельности.<br>До этого работала педагогом английкого языка.</p>
+				</div> <!-- END workExperience -->
+
+				<div class="tile" id="hardSkills">
+					<h3 class="mainInfoHeading">НАВЫКИ</h3>
+					<ul>						
+						<li>Основы HTML, CSS и Javascript</li>
+						<li>Основы Bootstrap</li>
+						<li>Основы адаптивной вёрстки</li>
+						<li>GitHub</li>
+						<li>CodePen Dashboard</li>
+						<li>Английский - В2</li>
+						<li>Немецкий - В2</li>
+						<li>Обработка и анализ информации</li>
+						<li>Грамотность</li>
+						<li>Работа в международной команде</li>
+					</ul>
+				</div> <!-- END hardSkills -->
+
+				<div class="tile" id="softSkills">
+					<h3 class="mainInfoHeading">ЛИЧНЫЕ КАЧЕСТВА</h3>
+					<ul>
+						<li>Ответственность</li>
+						<li>Гибкость</li>
+						<li>Аккуратность</li>
+						<li>Любознательность</li>
+						<li>Обучаемость</li>
+						<li>Пунктуальность</li>
+						<li>Внимательность</li>
+						<li>Самостоятельность</li>
+						<li>Честность</li>
+						<li>Целеустремленность</li>
+					</ul>
+				</div> <!-- END softSkills -->
+
+				<div class="tile volunteerExperience" id="volunteerExperience">
+					<h3 class="mainInfoHeading">ВОЛОНТЁРСТВО</h3>
+						<p><em>июль-август 2012</em> - участие в волонтёрском проекте в Германии (Hamm, Deutschland) по благоустройству парковой зоны</p>
+						<p><em>апрель 2013 и 2014</em> - сопровождение молодёжной футбольной команды из Австрии на Кубке Казаченка (Kazachenok Cup)</p>
+						<p><em>август 2013</em> - помощь в реставрационных работах Мемориальному музею "Пермь-36"</p>
+						<p><em>март 2014</em> - работа в отделе тех.поддержки на Паралимпийских играх в Сочи</p>
+						<p><em>сентябрь 2015 - август 2016</em> - участие в программе Au-pair в Австрии</p>
+						<p><em>июнь 2018</em> - работа в сфере размещения спортсменов и членов команд на Чемпионате Мира по футболу FIFA-2018 в городе Калининград</p>
+						<p><em>сентябрь 2018 - июнь 2019</em> - участие в EVS программе в Англии</p>
+				</div> <!-- END volunteerExperience -->
+				
+			</div> <!-- END mainInfo -->
+
+		</div> <!--END mainWrapper -->
+
+		<div class="certificates" id="certificates">
+			<h3>СЕРТИФИКАТЫ</h3>
+				<ul>
+					<li>Сертификат Coursera HTML, CSS and Javascript for Web Developers 2020 (<a href="certificates/coursera_certificate_html_css_js_2020.pdf" target="_blank">см. сертификат</a>)</li>
+					<li>Сертификат Нетологии HTML and CSS Basics 2020 (<a href="certificates/netology_certificate_html_css_2020.pdf" target="_blank">см. сертификат</a>)</li>
+					<li>Сертификат Нетологии Digital Start 2020 (<a href="certificates/netology_certificate_digital_start_2020.pdf" target="_blank">см. сертификат</a>)</li>
+					<li>Сертификат Mimo Web Development 2020 (<a href="certificates/mimo_certificate_web-development_2020.pdf" target="_blank">см. сертификат</a>)</li>
+				</ul>
+		</div> <!--END certificates -->
+
+		<div class="footer">
+			<p><em>Ищу место работы, где смогу усовершенствовать новоприобретённые навыки и расширить свой скромный багаж знаний. Буду рада сотрудничеству!</em></p><a class="buttonUp start1" href="#start">Наверх</a><a class="buttonUp start2" href="#menuButton">Наверх</a>
+			
+		</div>
+
+<!-- BUTTON -->
+		<script>
+		function openNav() {
+		  document.getElementById("sideMenu").style.width = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("sideMenu").style.width = "0";
+		}
+
+		
+		</script>
+
+	</body>
+
+</html>
